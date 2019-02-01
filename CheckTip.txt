@@ -1,0 +1,19 @@
+PRINT "Enter the check total"
+INPUT scan
+DECIMAL total
+total = scan
+
+PRINT "Enter the percentage of tip to give"
+DECIMAL percentage
+percentage = scan
+
+percentage = percentage / 100
+DECIMAL tipQty = total * percentage
+DECIMAL sum = total + tipQty
+
+PRINT "AMOUNT = "
+PRINT total
+PRINT "TIP = "
+PRINT tipQty
+PRINT "TOTAL = "
+PRINT sum

@@ -1,0 +1,9 @@
+START
+PRINT "ENTER CELSIUS"
+INPUT in
+DECIMAL celsius
+celsius = in
+DECIMAL fahr
+fahr = (celsius * 9/5)+32
+PRINT fahr
+END
